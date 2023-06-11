@@ -1,0 +1,186 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+margin-top: 0;
+margin-bottom: .5rem;
+font-weight: 500;
+line-height: 1.2;
+font-size: 150%;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.roundCorner{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.navbar{
+
+background: rgb(32, 32, 32);
+font-size: 150%;
+}
+
+.col-autoalign {
+    flex: 0 0 auto;
+    width: auto
+}
+
+.nav-item1{
+
+color: white;
+text-align: left;
+}
+
+    .nav-item1:hover {
+
+    color: yellow;
+    }
+
+.social {
+text-align: center;
+padding-left: 10;
+}
+
+    .social:hover {
+    color: rgb(255, 255, 255);
+    }
+
+
+.mid {
+
+  text-align: center;
+}
+
+.disp-block {
+display: block;
+}
+
+.column {
+    flex: 1 0 0%
+}
+
+.pad-4 {
+    padding: 1.5rem !important
+}
+
+.p-5 {
+    padding: 0.5rem
+    }
+    
+
+.container1, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+width: 100%;
+padding-right: 20;
+padding-left: 10;
+margin-right: auto;
+margin-left: auto
+}
+
+.container1-fluid{
+
+    display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between
+}
+
+.main-title1 {
+    position: absolute;
+    right: 15%;
+    bottom: 15rem;
+    left: 15%;
+    padding-top: 5rem;
+    color: rgb(246, 246, 246);
+    text-align: center
+}
+
+.main-title2 {
+    position: absolute;
+    right: 15%;
+    bottom: 15rem;
+    left: 15%;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+    color: rgb(246, 246, 246);
+    text-align: center
+}
+
+.main-title {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center
+}
+
+.bttn {
+    display: inline-block;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+    .bttn:hover {
+        color: #212529
+    }
+
+.w-50 {
+width: 50% 
+}
+
+.width-full {
+    width: 100%
+    }
+
+.gallery {
+    
+width: 94vw;
+height: 60vmin;
+display: flex;
+gap: 5px;
+}
+
+.gallery img {
+    
+height: 100%;
+flex: 1;
+object-fit: cover;
+overflow: hidden;
+cursor: pointer;
+border-radius: 10px;
+transition: all 0.3s;
+}
+
+    .gallery img:hover {
+        flex: 4;
+    }
+
+.flex {
+    display: flex;
+height: 100%;
+flex: 1;
+object-fit: cover;
+overflow: hidden;
+cursor: pointer;
+border-radius: 10px;
+transition: all 0.3s;
+}
+
+    .flex:hover {
+        flex: 4;
+    }

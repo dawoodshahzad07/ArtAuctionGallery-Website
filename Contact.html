@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="..//CSS/style.css">
+        <link rel="stylesheet" href="..//CSS/styling.css">
+        <title> Art Auction Gallery </title>
+    </head>
+<body>
+
+   <!--Navigation Bar-->
+   <nav class="navbar">
+    <div class="container1-fluid">
+        <img class="rounded" src="..//Icons/logo.png" alt="" width="150" height="150">
+
+                                      <!-- Home Page -->
+        <div>
+        <a class= "nav-item1" href="../index.html">
+            <img class="nav-item1" src="..//Icons/home1.png" width="50" height="50"
+            onmouseover="this.src='..//Icons/home2.png';"
+            onmouseout="this.src='..//Icons/home1.png';"> Home </a>
+        </div>
+                                    <!-- About Us Page -->
+        <div>
+            <a class= "nav-item1" href="..//About/About.html">
+                <img class="nav-item1" src="..//Icons/about1.png" width="50" height="50"
+                onmouseover="this.src='..//Icons/about2.png';"
+                onmouseout="this.src='..//Icons/about1.png';"> About Us </a>
+        </div>
+                                    <!-- Contact Us Page -->
+        <div>
+            <a class= "nav-item1" href="..//Contact/Contact.html">
+                <img class="nav-item1" src="..//Icons/contact1.png" width="50" height="50"
+                onmouseover="this.src='..//Icons/contact2.png';"
+                onmouseout="this.src='..//Icons/contact1.png';"> Contact Us </a>
+        </div>
+
+
+            <form class="d-flex" style="padding-left: 100;">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+    <section class="border p-4 d-flex justify-content-center mb-4" style="background-color: rgb(199, 228, 198);">
+        <form id="custom-validate-form" class="text-center needs-validation" style="width: 100%; max-width: 300px" novalidate="">
+            <h2>Contact us</h2>
+
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" ">Name</label>
+                <input type="text" name="name" class="form-control">
+                <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 42.4px;"></div><div class="form-notch-trailing"></div></div>
+            </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" style="margin-left: 0px;">Email address</label>
+                <input type="email" name="email" class="form-control">
+                <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div>
+            </div>
+
+            <!-- Subject input -->
+            <div class="form-outline mb-4">
+                <label class="form-label";>Subject</label>
+                <input type="text" id="custom-validation-subject" name="subject" class="form-control">
+                <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 50.4px;"></div><div class="form-notch-trailing"></div></div>
+            </div>
+
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" style="margin-left: 0px;">Message</label>
+                <textarea class="form-control" name="message" rows="4"></textarea>
+                <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 60px;"></div><div class="form-notch-trailing"></div></div>
+            </div>
+
+            <!-- Submit button -->
+            <button id="custom-validation-button" class="btn btn-primary btn-block mb-4">Send</button>
+
+            <!-- Status message -->
+            <div id="status"></div>
+        </form>
+    </section>
+
+
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+
+        <!-- Section: Social media -->
+      <br>
+            <!-- Socials Start -->
+            <section class="social">
+                <a href="https://facebook.com">
+                <img class="l_pad20px" src="..//Socials/fb1.png" width="50" height="50"
+                onmouseover="this.src='..//Socials/fb2.png';"
+                onmouseout="this.src='..//Socials/fb1.png';"
+                ></a>
+        
+                <a href="https://youtube.com">
+                <img style="padding-left: 50;" src="..//Socials/yt1.png" width="50" height="50"
+                onmouseover="this.src='..//Socials/yt2.png';"
+                onmouseout="this.src='..//Socials/yt1.png';"
+                ></a>
+            
+                <a href="https://twitter.com">
+                <img class="l_pad20px" src="..//Socials/twitter1.png" width="50" height="50"
+                onmouseover="this.src='..//Socials/twitter2.png';"
+                onmouseout="this.src='..//Socials/twitter1.png';"
+                ></a>
+            
+                <a href="https://github.com">
+                <img class="l_pad20px" src="..//Socials/gh1.png" width="50" height="50"
+                onmouseover="this.src='..//Socials/gh2.png';"
+                onmouseout="this.src='..//Socials/gh1.png';"
+                ></a>
+                </section>
+            <!-- Socials End -->
+
+        
+        <!-- Section: Social media -->
+        <section class="">
+            <form action="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-autoalign">
+                        <p class="pt-2">
+                            <strong>Sign up for our newsletter</strong>
+                        </p>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="col-md-5 col-12">
+                        <!-- Email input -->
+                        <div class="form-outline form-white mb-4">
+                            <label class="form-label"> Email address </label>
+                            <input type="email" class="form-control" />
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-autoalign">
+                        <!-- Submit button -->
+                        <button onclick=alert('Newsletter_Subscribed!') type="submit">
+                            Subscribe
+                        </button>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </form>
+        </section>
+
+       <!-- Final Footer --> 
+    </div>
+    <div class="mid" style="background-color: rgba(0, 0, 0, 0.2);">
+    <!-- Section: Text -->
+        <p class="mid"> <br>
+            One may not think about more utilitarian items and places as “art,” but they do contribute to one's aesthetic experience.
+        </p>
+    <!-- Credits -->
+        ©2022 Copyright:
+        <a style="color: #fff" href="https://bukc.edu.pk/">   Dawood  |   Bilal  |   Saim   </a>
+        <br><br>
+    </div>
+  </footer>
+ </body>
+</html>
